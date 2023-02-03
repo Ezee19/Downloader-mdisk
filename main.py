@@ -30,7 +30,7 @@ from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceRepl
 
 
 # app
-bot_token = os.environ.get("TOKEN", "5562266381:AAGY7bhPnRC62qbYegRxnCGSo6eUQPlx_OI") 
+bot_token = os.environ.get("TOKEN", "5953337678:AAF_thoIHSNewztUnvA--rs95At2BCs-wq8") 
 api_hash = os.environ.get("HASH", "ad762fe0516f367115ba651d929cf429") 
 api_id = os.environ.get("ID", "17737898")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
@@ -40,7 +40,7 @@ from split import ss, temp_channel, isPremmium
 if isPremmium: acc = Client("myacc", api_id=api_id, api_hash=api_hash, session_string=ss)
 
 # optionals
-auth = os.environ.get("AUTH", "623741973,1864861524,5076949930,683684279,5316294458,5290630238,598394386,5410723702,5515158923,809970451,1303200779,635819536,5135693898,817785442,5020113494,1278611015,5285296040,1335978271,1053140055,1024155122,1667559069,1057959919,1838349598,2083663200,540828579,5072829406,5568598812,5753750662,617534770,5452354891,910348411,5637860109,761721012,597718002,5580289036,5069888600,5552151289,2053444781,694801065,866545155,5541612283,904971137,1434080910,5858774735,1322828848,1250827383,5307413215,751366152,5344930478,923184534,5672110846,1177426758,5236165250,459412101,526533790,1968032247,1053894535,240296058,5715297117,1839169012,2021057723,5589616195,5226441054,1030789370,672148918,1222974251")
+auth = os.environ.get("AUTH", "")
 ban = os.environ.get("BAN", "")
 from mdisk import iswin
 
@@ -53,7 +53,7 @@ async def start(client,message):
 	except:
 	    await message.reply_text(text =f"""
 Hi {message.from_user.first_name } 👋
-I'm Paid Mdisk Uploader Bot 🚀\nPermanent Thumbnail Support💯\n
+I'm Free Mdisk Uploader Bot 🚀\nPermanent Thumbnail Support💯\n
 Send me a Mdisk link and \nI will upload it to telegram as a file/video.\n
 Please /upgrade Your Subscription
 	""",reply_to_message_id = message.id ,  
