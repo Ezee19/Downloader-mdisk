@@ -25,14 +25,14 @@ from helper.progress import humanbytes
 from helper.date import add_date ,check_expi
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_ ,uploadlimit,usertype,addpre,find_one,used_limit,getid,delete,insert,find_one,usertype,addpredata
-ADMIN = int(os.environ.get("ADMIN", 1864861524))
+ADMIN = int(os.environ.get("ADMIN", 5104293442))
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 
 
 # app
-bot_token = os.environ.get("TOKEN", "5953337678:AAF_thoIHSNewztUnvA--rs95At2BCs-wq8") 
-api_hash = os.environ.get("HASH", "ad762fe0516f367115ba651d929cf429") 
-api_id = os.environ.get("ID", "17737898")
+bot_token = os.environ.get("TOKEN", "5591577616:AAHUE8cMGXAVvJmRdBSwr1Jsfpz4Ltt93LU") 
+api_hash = os.environ.get("HASH", "016d5e115a06ddfb6121823d72ae4d8c") 
+api_id = os.environ.get("ID", "15823382")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 
 # preiumum
