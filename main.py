@@ -53,18 +53,18 @@ async def start(client,message):
 	except:
 	    await message.reply_text(text =f"""
 Hi {message.from_user.first_name } 👋
-I'm Free Mdisk Uploader Bot 🚀\nPermanent Thumbnail Support💯\n
+I'm Paid Mdisk Link Uploader Bot 🚀\nPermanent Thumbnail Support💯\n
 Send me a Mdisk link and \nI will upload it to telegram as a file/video.\n
 Please /upgrade Your Subscription
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", url='https://t.me/Aaajats')
+           InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", url='http://t.me/Owner_contact_rebot')
            ],[
-           InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/anumitultrabots'),
-           InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/anumitultrabots')
+           InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/Film_Update_Official'),
+           InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/Film_Update_Official')
            ],[
            InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-           InlineKeyboardButton('ℹ️ Subscribe 🧐', url='https://youtube.com/@anumitultrabots')
+           InlineKeyboardButton('ℹ️ Subscribe 🧐', url='https://youtube.com/@ipapcorn')
            ]]
           )
        )
@@ -76,14 +76,14 @@ async def start(client,message):
 	Hello \n
 	🛡️ PLAN 🛡️\n
 	🌸Daily  Upload  limit Unlimited\n
-	🌸Price Rs 40 🇮🇳/🌎 1$  per Month__
+	🌸Price Rs 30 🇮🇳/🌎 1$  per Month__
 	
 	💸Pay Using Upi I'd \nultrabots.famc@idfcbank\n
 	💸Pay Using qr code send /qr command\n
 	💸After Payment Send Screenshots Of\nPayment To Admin
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Aaajats")], 
+        			InlineKeyboardButton("ADMIN 🛂",url = "http://t.me/Owner_contact_rebot")], 
         			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/ajak4406")],
 		                [InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
        )
@@ -95,7 +95,7 @@ async def start(client,message):
 	PAID PLANS AVAILABLE\n
 	🛡️ PLAN 🛡️\n
 	🌸Daily  Upload  limit Unlimited
-	🌸Price Rs 40 🇮🇳/🌎 1$  per Month__
+	🌸Price Rs 30 🇮🇳/🌎 1$  per Month__
 	🌸No Timeout\n
 Please /upgrade your subscription
 	""")
@@ -174,7 +174,7 @@ async def start(client,message):
 
 @app.on_message(filters.private & filters.command(["about"]))
 async def start(client,message):
-	await message.reply_text("📛 My Name : @renamerprov2_bot\n\n👨‍💻Creater :- @ajak4405\n\n🧿 Language :Python 3.10.8\n\n📢 Framework :Pyrogram 2.0.63\n\n🤖 Bot Server : VPS")
+	await message.reply_text("📛 My Name : @renamerprov2_bot\n\n👨‍💻Creater :- http://t.me/Owner_contact_rebot\n\n🧿 Language :Python 3.10.8\n\n📢 Framework :Pyrogram 2.0.63\n\n🤖 Bot Server : VPS")
 
 
 # check for user access
