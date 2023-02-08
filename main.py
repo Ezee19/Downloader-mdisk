@@ -78,13 +78,13 @@ async def start(client,message):
 	🌸Daily  Upload  limit Unlimited\n
 	🌸Price Rs 30 🇮🇳/🌎 1$  per Month__
 	
-	💸Pay Using Upi I'd \nultrabots.famc@idfcbank\n
+	💸Pay Using Upi I'd \n6207836600@ybl\n
 	💸Pay Using qr code send /qr command\n
 	💸After Payment Send Screenshots Of\nPayment To Admin
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "http://t.me/Owner_contact_rebot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/ajak4406")],
+        			[InlineKeyboardButton("Update Channel 🌎",url = "https://t.me/Film_Update_Official")],
 		                [InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
        )
 
@@ -103,7 +103,7 @@ Please /upgrade your subscription
 # qr code
 @app.on_message(filters.private & filters.command(["qr"]))
 async def start(client,message):
-	await message.reply_photo("https://telegra.ph/file/fddcc0ebfc76cb9d05a5f.jpg"),
+	await message.reply_photo("https://graph.org/file/41e6b128fe3d1cec85aa0.jpg"),
 
 
 #total user
@@ -174,7 +174,7 @@ async def start(client,message):
 
 @app.on_message(filters.private & filters.command(["about"]))
 async def start(client,message):
-	await message.reply_text("📛 My Name : @renamerprov2_bot\n\n👨‍💻Creater :- http://t.me/Owner_contact_rebot\n\n🧿 Language :Python 3.10.8\n\n📢 Framework :Pyrogram 2.0.63\n\n🤖 Bot Server : VPS")
+	await message.reply_text("📛 My Name : @@mdiskdownliadbot\n\n👨‍💻Creater :- http://t.me/Owner_contact_rebot\n\n🧿 Language :Python 3.10.8\n\n📢 Framework :Pyrogram 2.0.63\n\n🤖 Bot Server : VPS")
 
 
 # check for user access
